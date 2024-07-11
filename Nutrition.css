@@ -7,7 +7,7 @@
 }
 
 header {
-  background-image: url(/images/Nutrition_1.jpg);
+  background-image: url(./images/Nutrition_1.jpg);
   background-size: cover;
   height: 700px;
   width: 100%;
@@ -131,7 +131,7 @@ header h1 {
     height: 500px;
     background-color: gray;
     margin-top: 20px;
-    background-image: url(/images/gym_nutrition_4.jpg);
+    background-image: url(./images/gym_nutrition_4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
@@ -206,7 +206,7 @@ header h1 {
 }
 
 .box2 {
-  background-image: url(/images/gym1.jpg);
+  background-image: url(./images/gym1.jpg);
   background-size: cover;
   height: 600px;
   max-width: 53%;
