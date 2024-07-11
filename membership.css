@@ -7,7 +7,7 @@
   }
   
   header {
-    background-image: url(/images/about_head_one.jpg);
+    background-image: url(./images/about_head_one.jpg);
     background-size: cover;
     height: 700px;
     width: 100%;
@@ -195,7 +195,7 @@ nav ul li:hover a span:nth-child(2){
   }
   
   .box2 {
-    background-image: url(/images/gym1.jpg);
+    background-image: url(./images/gym1.jpg);
     background-size: cover;
     height: 500px;
     max-width: 50%;
