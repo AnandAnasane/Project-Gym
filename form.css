@@ -7,7 +7,7 @@
 
   
 header {
-  /* background-image: url(/images/imag_1.jpg); */
+  /* background-image: url(./images/imag_1.jpg); */
   background-size: cover;
   height: 200px;
   width: 100%;
@@ -96,7 +96,7 @@ nav ul li:hover a span:nth-child(2){
 
 
   body {
-    background-image: url(/images/gym_form_img_3.jpg);
+    background-image: url(./images/gym_form_img_3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 1500px;
