@@ -7,7 +7,7 @@
 }
 
 header {
-  background-image: url(/images/gym_products_head_image.jpg);
+  background-image: url(./images/gym_products_head_image.jpg);
   background-size: cover;
   height: 700px;
   width: 100%;
@@ -180,7 +180,7 @@ header h1 {
 
 
 .box1{
-  background-image: url(/images/bag_one.jpg);
+  background-image: url(./images/bag_one.jpg);
   background-size: contain;
 }
 
@@ -210,72 +210,72 @@ header h1 {
 }
 /*---------- */
 .box2{
-  background-image: url(/images/traadmil.jpg);
+  background-image: url(./images/traadmil.jpg);
   background-size: contain;
 }
 .box3{
-  background-image: url(/images/band.jpg);
+  background-image: url(./images/band.jpg);
   background-size: contain;
 }
 
 .box4{
-  background-image: url(/images/gloves.jpg);
+  background-image: url(./images/gloves.jpg);
   background-size: contain;
 }
 .box5{
-  background-image: url(/images/rubber.jpg);
+  background-image: url(./images/rubber.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 .box6{
-  background-image: url(/images/socks.jpg);
+  background-image: url(./images/socks.jpg);
   background-size: contain;
 
 }
 
 .box7{
-  background-image: url(/images/rope.jpg);
+  background-image: url(./images/rope.jpg);
   background-size: contain;
 }
 .box8{
-  background-image: url(/images/Yoga\ mat.jpg);
+  background-image: url(./images/Yoga\ mat.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 .box9{
-  background-image: url(/images/product6.jpg);
+  background-image: url(./images/product6.jpg);
   background-size: contain;
 }
 
 .box10{
-  background-image: url(/images/product5.jpg);
+  background-image: url(./images/product5.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .box11{
-  background-image: url(/images/product7.jpg);
+  background-image: url(./images/product7.jpg);
   background-size: contain;
 }
 
 .box12{
-  background-image: url(/images/product4.jpg);
+  background-image: url(./images/product4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .box13{
-  background-image: url(/images/product3.jpg);
+  background-image: url(./images/product3.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 .box14{
-  background-image: url(/images/product2.jpg);
+  background-image: url(./images/product2.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .box15{
-  background-image: url(/images/product1.jpg);
+  background-image: url(./images/product1.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 
