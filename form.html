@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="form.css" />
+    <title>Registration Form |</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <section class="logo">
+          <a href="index.html"><img src="/images/gym_logo_2024_04.png" alt="logo" /></a>
+        </section>
+        <ul>
+          <li>
+            <a href="/index.html">
+              <span>HOME</span>
+              <span>HOME</span>
+            </a>
+          </li>
+          <li>
+            <a href="/membership.html" target="_blank">
+              <span>MEMBERSHIP</span>
+              <span>MEMBERSHIP</span>
+            </a>
+          </li>
+          <li>
+            <a href="/Nutrition.html" target="_blank">
+              <span>NUTRITION</span>
+              <span>NUTRITION</span>
+            </a>
+          </li>
+          <li>
+            <a href="/location.html" target="_blank">
+              <span>LOCATION</span>
+              <span>LOCATION</span>
+            </a>
+          </li>
+          <li>
+            <a href="form.html" target="_blank">
+              <span>CONTACT</span>
+              <span>CONTACT</span>
+            </a>
+          </li>
+          <li>
+            <a href="/products.html" target="_blank">
+              <span>PRODUCTS</span>
+              <span>PRODUCTS</span>
+            </a>
+          </li>
+          <li>
+            <a href="/About.html" target="_blank">
+              <span>ABOUT</span>
+              <span>ABOUT</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- <h1><i> # FITNESS FREAK</i></h1> -->
+    </header>
+    
+
+    <form action="demo.html" autocomplete="off">
+      <section class="container">
+        <h4>Registration Form</h4>
+        <!-- <hr /> -->
+        <section class="name">
+          <input type="text" id="fname" required placeholder="First Name" />
+          <input type="text" id="lname" placeholder="Last Name" required />
+        </section>
+        <section class="add">
+          <!-- <p>Address :</p> -->
+          <input type="text" placeholder="Street address Line 1" required />
+          <!-- <input type="text" placeholder="Street Address Line 2" /> -->
+          <input type="text" placeholder="City" required />
+          <input type="text" placeholder="State/Provience " required />
+          <input type="text" placeholder="Postal/Zip Code" required />
+        </section>
+        <section class="phone">
+          <!-- <p>Phone Number :</p>
+          <input type="text" placeholder="Phone Number" required /> -->
+         
+          <input type="text" placeholder="Phone Number" required />
+          
+          <input type="email" placeholder="ex: email@yahoo.com" required />
+        </section>
+        <section class="email">
+          <!-- <p>E-mail :</p>
+          <input type="email" placeholder="ex: email@yahoo.com" required /> -->
+        </section>
+        <section class="birth">
+          
+          <input type="date" name="" id="" /> 
+          <input type="text" placeholder="Height in cm" />
+          <input type="text" placeholder="Weight in kg" />
+        </section>
+
+        <section class="sex">
+          <p>Gender :</p>
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" value="female" />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="other" value="other" />
+          <label for="other">Other</label>
+        </section>
+
+        <hr />
+
+        <section class="membership">
+          <p>Membership for:</p>
+          <input type="radio" name="membership" id="adult" value="Adult" />
+          <label for="adult">Adult</label>
+          <input type="radio" name="membership" id="student" value="student" />
+          <label for="student">Student</label>
+          <input type="radio" name="membership" id="retired" value="retired" />
+          <label for="retired">Retired</label>
+          <input type="radio" name="membership" id="disable" value="disable" />
+          <label for="disable">Disable</label>
+          <input type="radio" name="membership" id="family" value="family" />
+          <label for="family">Family</label>
+          <input type="radio" name="membership" id="couple" value="couple" />
+          <label for="couple">Couple</label>
+        </section>
+
+        <hr />
+
+        <section class="duration">
+          <p>Membership Duration:</p>
+          <input type="radio" name="duration" id="twelve" value="12 month" />
+          <label for="twelve">12 Months</label>
+          <input type="radio" name="duration" id="six" value="6 month" />
+          <label for="six">6 Months</label>
+          <input type="radio" id="three" name="duration" value="3 month" />
+          <label for="three">3 Months</label>
+          <input type="radio" id="one" name="duration" value="1 month" />
+          <label for="one">1 Month</label>
+        </section>
+
+        <hr />
+
+        <section class="question">
+          <p>Do you required personal trainer ?</p>
+          <input type="radio" id="yes" name="trainer" value="trainer" />
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="trainer" value="trainer" />
+          <label for="no">No</label>
+
+          <hr />
+
+          <p>Have you been in a gym before ?</p>
+          <input type="radio" id="y" name="gym" value="gym" />
+          <label for="y">Yes</label>
+          <input type="radio" id="n" name="gym" value="gym" />
+          <label for="n">No</label>
+        </section>
+
+        <hr />
+
+        <section class="recomend">
+          <p>Will you be willing to recommend us ?</p>
+          <input type="radio" id="y1" name="gym" value="gym" />
+          <label for="y1">Yes</label>
+          <input type="radio" id="n1" name="gym" value="gym" />
+          <label for="n1">No</label>
+          <input type="radio" id="maybe" name="gym" value="gym" />
+          <label for="n1">Maybe</label>
+        </section>
+
+        <!-- <hr /> -->
+      </section>
+      <input id="reset" type="reset" type="reset" value="RESET" />  
+      <input id="submit" type="submit" type="submit" value="SUBMIT" /> <br>
+      <p class="condition"><a href="##" >**Terms and condition may apply</a></p>
+
+    </form>
+
+    <footer>
+      <section class="foot-panel-two">
+        <section class="foot-panel-two-address">
+          <div>
+            <span><a href="index.html"><img id="footer-logo" src="/images/gym_logo_2024_03.png" alt="logo"></a></span>
+          </div>
+
+          <div class="site">
+            <p>504-505, Jalani Estate Commercial PRM LTD, JM Road, Deccan West,Pune Suburban, Maharashtra,
+              400053</p>
+          </div>
+          <div class="contact">
+            <p><b>Phone:</b> +9122 6678 7970</p>
+            <p><b>Email:</b> info@FitnessFreak.com</p>
+          </div>
+
+        </section>
+        <setion class="foot-panel-two-sitemap">
+          <h1><i>SITEMAP</i></h1>
+          <div class="list">
+            <ul>
+              <li><a href="/About.html" target="_blank">About Us</a></li>
+              <li><a href="membership.html" target="_blank">Membership</a></li>
+              <li><a href="location.html">Location</a></li>
+              <li><a href="">Offers</a></li>
+              <li><a href="/form.html" target="_blank">Contact</a></li>
+              <li><a href="">Terms & Conditions</a></li>
+              <li><a href="policy.html" target="_blank">Membership Policy</a></li>
+            </ul>
+          </div>
+
+
+        </setion>
+        <section class="foot-panel-two-social">
+          <h1><i>FOLLOW US</i></h1>
+          <div class="logo">
+            <a href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="#ff4500" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+              </svg></a>
+
+            <a href="https://www.instagram.com/"><svg xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="#ff4500" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                <path d="M16.5 7.5l0 .01" />
+              </svg></a>
+
+            <a href="https://x.com/i/flow/login"><svg xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-x" width="44" height="44" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="#ff4500" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+              </svg></a>
+
+            <a href="https://www.youtube.com/results?search_query=gym"><svg xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-youtube" width="44" height="44" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="#ff4500" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
+                <path d="M10 9l5 3l-5 3z" />
+              </svg></a>
+
+          </div>
+
+        </section>
+      </section>
+      <section class="foot-panel-three">
+        <span>
+          <p>
+            © 2024 Fitness Freak & Health Pvt. Ltd.
+            <i> FitnessFreak.com </i> All Rights Reserved.
+          </p>
+        </span>
+      </section>
+    </footer>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: fangsong !important;
+}
+
+header {
+  background-image: url(/images/location.jpg);
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  /* opacity: 0.8; */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.722);
+}
+.logo img {
+  height: 120px;
+  width: 120 px;
+  background-size: contain;
+  margin-left: 20px;
+  mix-blend-mode: color-dodge;
+  margin-right: -100px;
+}
+
+/* ####################### */
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  width: 100%;
+}
+
+nav ul li {
+  margin-right: 40px;
+  position: relative;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+  height: 20px;
+  overflow: hidden;
+}
+nav ul li a span{
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: 0.5s;
+    /* color: white; */
+
+}
+nav ul li a span:nth-child(1){
+    color: #fff;
+}
+nav ul li a span:nth-child(2){
+    color: orangered;
+}
+nav ul li:hover a span:nth-child(1){
+    transform: translateY(-100%);
+}
+nav ul li:hover a span:nth-child(2){
+    transform: translateY(-100%);   
+}
+
+/* #################### */
+
+/* LOation HEading */
+/* header h1 {
+  font-size: 100px;
+  letter-spacing: -1px;
+  text-align: right; */
+  /* color: white; */
+  /* color: rgba(128, 128, 128, 0.658); */
+
+  /* color: rgba(0, 0, 0, 0.644);
+  margin-top: 450px;
+  width: 580px;
+  padding-right: 30px;
+  text-decoration: underline;
+} */
+
+/* MAIN SECTION */
+
+.location {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.location-map {
+  width: 50%;
+  height: 700px;
+  margin-left: 8%;
+  padding-top: 5%;
+  font-size: 23px;
+}
+
+
+.location-address{
+    width: 50%;
+}
+.location-address{
+    padding: 60px 50px;
+}
+.location-address h1 {
+    font-size: 55px;
+    /* font-weight: lighter; */
+    margin-bottom: 5px;
+  }
+
+.location-address p{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* footer section */
+
+/* Footer panel two */
+.foot-panel-two {
+  height: 450px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.907);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 5px solid orangered;
+}
+
+#footer-logo {
+  height: 150px;
+  width: 300 px;
+  background-size: contain;
+  margin-left: 150px;
+  border: 1px solid white;
+  margin-right: -100px;
+}
+
+.foot-panel-two-address {
+  height: 400px;
+  width: 40%;
+  padding: 10px 20px;
+  border-right: 0.5px solid rgba(255, 255, 255, 0.293);
+}
+
+.foot-panel-two-address h1 {
+  color: orangered;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.foot-panel-two-address .site {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 50px;
+  line-height: 25px;
+}
+.foot-panel-two-address .contact {
+  font-size: 20px;
+  text-align: center;
+  margin: 50px 50px;
+  line-height: 30px;
+}
+
+/* FOOT panel two SITEMAP */
+.foot-panel-two-sitemap {
+  height: 400px;
+  width: 30%;
+  border-right: 0.5px solid rgba(255, 255, 255, 0.293);
+}
+
+.foot-panel-two-sitemap h1 {
+  color: orangered;
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 126px;
+  letter-spacing: 2px;
+}
+
+.foot-panel-two-sitemap .list {
+  max-width: 200px;
+  margin: auto;
+}
+
+.foot-panel-two-sitemap ul {
+  display: block;
+}
+.foot-panel-two-sitemap ul li {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.foot-panel-two-sitemap ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.foot-panel-two-sitemap ul a:hover {
+  color: orangered;
+}
+
+/* SOCIAL MEDIA */
+
+.foot-panel-two-social {
+  height: 400px;
+  width: 30%;
+  color: white;
+  font-size: 50px;
+  padding: 20px 0px;
+}
+.foot-panel-two-social h1 {
+  color: orangered;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.foot-panel-two-social .logo {
+  font-size: 40px;
+  text-align: center;
+}
+
+.foot-panel-two-social .logo i {
+  color: orangered;
+  margin-right: 10px;
+}
+
+/*Footer panel three */
+.foot-panel-three {
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
